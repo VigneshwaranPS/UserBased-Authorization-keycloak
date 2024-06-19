@@ -1,0 +1,20 @@
+{
+  "realm": "DemoRealm",
+  "auth-server-url": "http://127.0.0.1:8081",
+  "resource": "Demo",
+  "credentials": {
+    "secret": "o3BC7QW6gJtC8LY9XQza5bkhnS6Y3BN8"
+  },
+  "paths" : [
+    {
+      "path": "/swagger-ui/*",
+      "enforcement-mode": "DISABLED"
+    },{
+      "path": "/v3/api-docs/*",
+      "enforcement-mode": "DISABLED"
+    },{
+      "path": "/api/*",
+      "enforcement-mode": "DISABLED"
+    }
+  ]
+}
